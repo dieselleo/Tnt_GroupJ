@@ -7,6 +7,7 @@ package tnt_groupj;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.Scanner;
 
 /**
  *
@@ -55,9 +56,27 @@ public class Tnt_GroupJ {
         return a;
     }    
     
-    /*
-    * Test Pedro
-    */
+  
+ static void Pedromethod() {
+   //int are made to save informations
+    int number1 ;
+    int number2 ;
+    //Scanner is the code to save int informations
+    Scanner input = new Scanner(System.in);
+    
+    System.out.println("Type the first number");
+    //It will save the first number
+    number1 = input.nextInt();
+    
+    System.out.println("Type the second number");
+    // It will save the second number
+    number2= input.nextInt();
+    
+    System.out.println("The result of this multiply is:" + (number1*number2));
+    //This is the code that makes the multiplication
+   }
+
+   
       
     public static void main(String[] args) {
         // TODO code application logic here
