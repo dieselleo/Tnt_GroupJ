@@ -54,6 +54,10 @@ public class Tnt_GroupJ {
         }
         return a;
     }    
+    
+    /*
+    * Test Pedro
+    */
       
     public static void main(String[] args) {
         // TODO code application logic here
