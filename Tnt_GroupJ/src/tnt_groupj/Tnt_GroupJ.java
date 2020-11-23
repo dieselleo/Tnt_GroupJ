@@ -55,25 +55,7 @@ public class Tnt_GroupJ {
         }
         return a;
     }    
-    
-        static void DaniMethod (){
-        int num1, num2;
-      
-                
-    Scanner myKB = new Scanner(System.in);
-    
-    System.out.println("Enter your First number");
-      num1 = myKB.nextInt();
-      
-    System.out.println("Enter your Second number");
-    num2 = myKB.nextInt();
-    
-      int sub = num1-num2;
-      
-    System.out.println("The Subtraction of your numbers is " + sub);
-    
-    }
-    
+  
   
   
  static void Pedromethod() {
