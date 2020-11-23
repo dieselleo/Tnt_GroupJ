@@ -75,6 +75,23 @@ public class Tnt_GroupJ {
     System.out.println("The result of this multiply is:" + (number1*number2));
     //This is the code that makes the multiplication
    }
+ 
+ static void Luanmethod(){
+     int number1;
+     int number2;
+     int sum;
+             
+     Scanner input = new Scanner(System.in);
+     
+     System.out.println("Please type the first number");
+     number1 = input.nextInt();
+     
+     System.out.println("Please type the second number");
+     number2 = input.nextInt();
+     
+     sum = number1 + number2;
+     System.out.println("The sum of your 2 numbers is " + sum);
+    }
 
    
       
