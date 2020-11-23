@@ -123,7 +123,16 @@ static void AsraltsMethod() {
      System.out.println("The sum of your 2 numbers is " + sum);
     }
 
+   static void Danimethod (){
    
+           
+        int num1, num2;
+      
+                
+    Scanner myKB = new Scanner(System.in);
+    
+    System.out.println("Enter your First number");
+      num1 = myKB.nextInt();
       
     System.out.println("Enter your Second number");
     num2 = myKB.nextInt();
