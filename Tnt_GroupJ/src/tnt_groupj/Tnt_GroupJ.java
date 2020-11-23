@@ -75,6 +75,18 @@ public class Tnt_GroupJ {
     System.out.println("The result of this multiply is:" + (number1*number2));
     //This is the code that makes the multiplication
    }
+BufferedReader br = new BufferedReader (new InputStreamReader(System.in));
+        int age;
+        Scanner myScanner = new Scanner (System.in);
+        System.out.println("How old are you?");
+        String str = br.readLine();
+        age = myScanner.nextInt();
+        {
+            if (18>age) {
+                System.out.println("Too young to enter the concert");
+            }else{
+                System.out.println("You may enter the concert");
+            }
 
    
       
