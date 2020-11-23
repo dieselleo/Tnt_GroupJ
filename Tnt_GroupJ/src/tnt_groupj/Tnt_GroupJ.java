@@ -55,7 +55,8 @@ public class Tnt_GroupJ {
         }
         return a;
     }    
-    
+  
+  
   
  static void Pedromethod() {
    //int are made to save informations
@@ -104,8 +105,25 @@ static void AsraltsMethod() {
      System.out.println("The sum of your 2 numbers is " + sum);
     }
 
+   static void Danimethod (){
    
+           
+        int num1, num2;
       
+                
+    Scanner myKB = new Scanner(System.in);
+    
+    System.out.println("Enter your First number");
+      num1 = myKB.nextInt();
+      
+    System.out.println("Enter your Second number");
+    num2 = myKB.nextInt();
+    
+      int sub = num1-num2;
+      
+    System.out.println("The Subtraction of your numbers is " + sub);
+    
+   }
     public static void main(String[] args) {
         // TODO code application logic here
         /*
