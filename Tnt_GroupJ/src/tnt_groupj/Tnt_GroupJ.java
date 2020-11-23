@@ -76,7 +76,37 @@ public class Tnt_GroupJ {
     //This is the code that makes the multiplication
    }
 
-   
+    static void Divide(){
+          
+       
+        try {                 
+    
+        BufferedReader myKb = new BufferedReader (new InputStreamReader(System.in));
+       
+        System.out.println("Please enter a number");
+        int num1 = Integer.parseInt(myKb.readLine());
+        
+      
+        
+        
+        System.out.println("Please enter another number");
+        int num2 = Integer.parseInt(myKb.readLine());
+        
+        if (num2 == 0) {                     // this is for error if someone put num 2 is equal 0
+            System.out.println("Error");
+        }
+        
+        else {                                            // here is the code below for Division 
+        
+        System.out.println("The first number divided by the second is " + (num1/num2));
+        
+    }
+}
+
+catch (Exception e){      // This is for error if user type anything else instead numbers 
+    System.out.println("error please enter number only"); 
+}
+    }       
       
     public static void main(String[] args) {
         // TODO code application logic here
