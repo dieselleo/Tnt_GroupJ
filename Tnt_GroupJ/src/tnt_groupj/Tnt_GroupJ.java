@@ -125,6 +125,14 @@ static void AsraltsMethod() {
 
    
       
+    System.out.println("Enter your Second number");
+    num2 = myKB.nextInt();
+    
+      int sub = num1-num2;
+      
+    System.out.println("The Subtraction of your numbers is " + sub);
+    
+   }
     public static void main(String[] args) {
         // TODO code application logic here
         /*
