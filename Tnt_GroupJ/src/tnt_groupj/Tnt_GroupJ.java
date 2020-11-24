@@ -167,23 +167,23 @@ public class Tnt_GroupJ {
         System.out.println("Your number is "+ getNumber());
         
         // using Pedro's method
-        
+        System.out.println("Pedro's method for multiplication:");
         Pedromethod();
         
         // using Asralt's method
-        
+        System.out.println("Asralt's method for entering in a concert:");
         AsraltsMethod();
         
         // using Luan's method
-        
+        System.out.println("Luan's method for sum:");
         Luanmethod();
         
         // using Muhammad's method
-        
+        System.out.println("Muhammad's method for division:");
         Divide();
         
         // using Daniele's method
-        
+        System.out.println("Daniele's method for subtraction:");
         Danimethod ();
     }
 }
