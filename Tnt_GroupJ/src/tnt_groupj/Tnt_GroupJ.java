@@ -131,61 +131,7 @@ public class Tnt_GroupJ {
         } catch (Exception e){      // This is for error if user type anything else instead numbers 
             System.out.println("error please enter number only"); 
         }
-            if (18<age) {
-                System.out.println("Too young to enter the concert");
-            }else{
-                System.out.println("You may enter the concert");
-            }
-}
- 
- static void Luanmethod(){
-     int number1;
-     int number2;
-     int sum;
-             
-     Scanner input = new Scanner(System.in);
-     
-     System.out.println("Please type the first number");
-     number1 = input.nextInt();
-     
-     System.out.println("Please type the second number");
-     number2 = input.nextInt();
-     
-     sum = number1 + number2;
-     System.out.println("The sum of your 2 numbers is " + sum);
-    }
-
-    static void Divide(){
-          
-       
-        try {                 
-    
-        BufferedReader myKb = new BufferedReader (new InputStreamReader(System.in));
-       
-        System.out.println("Please enter a number");
-        int num1 = Integer.parseInt(myKb.readLine());
-        
-      
-        
-        
-        System.out.println("Please enter another number");
-        int num2 = Integer.parseInt(myKb.readLine());
-        
-        if (num2 == 0) {                     // this is for error if someone put num 2 is equal 0
-            System.out.println("Error");
-        }
-        
-        else {                                            // here is the code below for Division 
-        
-        System.out.println("The first number divided by the second is " + (num1/num2));
-        
-    }
-}
-
-catch (Exception e){      // This is for error if user type anything else instead numbers 
-    System.out.println("error please enter number only"); 
-}
-    }       
+    }      
 
    static void Danimethod (){
    
@@ -202,19 +148,6 @@ catch (Exception e){      // This is for error if user type anything else instea
      int sub = num1-num2;
 
      System.out.println("The Subtraction of your numbers is " + sub);
-      
-                
-     Scanner myKB = new Scanner(System.in);
-    
-     System.out.println("Enter your First number");
-     num1 = myKB.nextInt();
-      
-     System.out.println("Enter your Second number");
-     num2 = myKB.nextInt();
-    
-     int sub = num1-num2;
-      
-    System.out.println("The Subtraction of your numbers is " + sub);    
    }
     public static void main(String[] args) {
         // TODO code application logic here
