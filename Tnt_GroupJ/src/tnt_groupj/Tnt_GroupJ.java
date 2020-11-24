@@ -55,7 +55,8 @@ public class Tnt_GroupJ {
         }
         return a;
     }    
-    
+  
+  
   
  static void Pedromethod() {
    //int are made to save informations
@@ -75,6 +76,34 @@ public class Tnt_GroupJ {
     System.out.println("The result of this multiply is:" + (number1*number2));
     //This is the code that makes the multiplication
    }
+static void AsraltsMethod() {
+        int age;
+        Scanner input = new Scanner (System.in);
+        System.out.println("How old are you?");
+        age = input.nextInt();
+            if (18<age) {
+                System.out.println("Too young to enter the concert");
+            }else{
+                System.out.println("You may enter the concert");
+            }
+}
+ 
+ static void Luanmethod(){
+     int number1;
+     int number2;
+     int sum;
+             
+     Scanner input = new Scanner(System.in);
+     
+     System.out.println("Please type the first number");
+     number1 = input.nextInt();
+     
+     System.out.println("Please type the second number");
+     number2 = input.nextInt();
+     
+     sum = number1 + number2;
+     System.out.println("The sum of your 2 numbers is " + sum);
+    }
 
     static void Divide(){
           
@@ -107,7 +136,26 @@ catch (Exception e){      // This is for error if user type anything else instea
     System.out.println("error please enter number only"); 
 }
     }       
+
+   static void Danimethod (){
+   
+           
+        int num1, num2;
       
+                
+    Scanner myKB = new Scanner(System.in);
+    
+    System.out.println("Enter your First number");
+      num1 = myKB.nextInt();
+      
+    System.out.println("Enter your Second number");
+    num2 = myKB.nextInt();
+    
+      int sub = num1-num2;
+      
+    System.out.println("The Subtraction of your numbers is " + sub);
+    
+   }
     public static void main(String[] args) {
         // TODO code application logic here
         /*
